@@ -1,7 +1,6 @@
 package dev.ahmdaeyz.gadsleaderboard.data.network.service.apis
 
 import com.jakewharton.retrofit2.converter.kotlinx.serialization.asConverterFactory
-import dev.ahmdaeyz.gadsleaderboard.data.network.service.interceptors.ConnectivityInterceptor
 import kotlinx.serialization.json.Json
 import okhttp3.MediaType.Companion.toMediaType
 import okhttp3.OkHttpClient
