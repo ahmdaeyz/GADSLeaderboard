@@ -4,7 +4,6 @@ import com.google.common.truth.Truth.assertThat
 import dev.ahmdaeyz.gadsleaderboard.util.SimpleValidationError
 import org.junit.Test
 
-
 class SubmissionFormDataTest {
 
     @Test

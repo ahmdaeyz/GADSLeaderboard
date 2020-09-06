@@ -20,7 +20,6 @@ import dev.ahmdaeyz.gadsleaderboard.databinding.FragmentProjectSubmissionBinding
 import dev.ahmdaeyz.gadsleaderboard.ui.main.MainSharedViewModel
 import dev.ahmdaeyz.gadsleaderboard.util.SubmissionResult
 
-
 class ProjectSubmissionFragment : Fragment() {
     private val sharedViewModel by activityViewModels<MainSharedViewModel>()
     private lateinit var viewModel: ProjectSubmissionViewModel
@@ -34,7 +33,8 @@ class ProjectSubmissionFragment : Fragment() {
     }
 
     override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
+        inflater: LayoutInflater,
+        container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         val binding = FragmentProjectSubmissionBinding.inflate(inflater, container, false)
@@ -115,5 +115,4 @@ class ProjectSubmissionFragment : Fragment() {
         )
         return dialog
     }
-
 }

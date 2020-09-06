@@ -38,8 +38,6 @@ class MainActivity : AppCompatActivity() {
                 }
             }
         }
-
-
     }
 
     private fun navigateToProjectSubmission(fragmentManager: FragmentManager) {
@@ -63,5 +61,4 @@ class MainActivity : AppCompatActivity() {
             .replace(R.id.fragment_container, noConnectionFragment)
             .commit()
     }
-
 }

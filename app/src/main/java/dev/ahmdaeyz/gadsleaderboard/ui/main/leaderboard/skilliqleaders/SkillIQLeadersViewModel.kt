@@ -9,7 +9,8 @@ import dev.ahmdaeyz.gadsleaderboard.util.LeadersResult
 import dev.ahmdaeyz.gadsleaderboard.util.LeadersViewModel
 import kotlinx.coroutines.Dispatchers
 
-class SkillIQLeadersViewModel(private val networkService: NetworkService.GADS) : ViewModel(),
+class SkillIQLeadersViewModel(private val networkService: NetworkService.GADS) :
+    ViewModel(),
     LeadersViewModel {
     override val leaders: LiveData<LeadersResult<List<Leader>>> = liveData(Dispatchers.IO) {
         val leadersListResult = networkService.getSkillIQLeadersAsync().await()

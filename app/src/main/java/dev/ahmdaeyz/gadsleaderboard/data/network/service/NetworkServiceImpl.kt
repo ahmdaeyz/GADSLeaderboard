@@ -33,9 +33,7 @@ class NetworkServiceImpl private constructor() :
                 }
             }
         }
-
     }
-
 
     override suspend fun getHoursLeadersAsync(): Deferred<LeadersResult<List<Leader>>> =
         CoroutineScope(Dispatchers.IO).async {

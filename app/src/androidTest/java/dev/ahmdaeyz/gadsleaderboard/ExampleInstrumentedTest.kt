@@ -1,12 +1,10 @@
 package dev.ahmdaeyz.gadsleaderboard
 
-import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
-
+import androidx.test.platform.app.InstrumentationRegistry
+import com.google.common.truth.Truth.assertThat
 import org.junit.Test
 import org.junit.runner.RunWith
-
-import org.junit.Assert.*
 
 /**
  * Instrumented test, which will execute on an Android device.
@@ -19,6 +17,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("dev.ahmdaeyz.gadsleaderboard", appContext.packageName)
+        assertThat("dev.ahmdaeyz.gadsleaderboard").isEqualTo(appContext.packageName)
     }
 }

@@ -20,5 +20,4 @@ class MainSharedViewModel : ViewModel() {
     fun navigateToSubmissionScreen() {
         _shouldNavigateToSubmissionScreen.value = true
     }
-
 }

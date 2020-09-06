@@ -12,7 +12,6 @@ import dev.ahmdaeyz.gadsleaderboard.databinding.FragmentLearningLeadersBinding
 import dev.ahmdaeyz.gadsleaderboard.ui.main.leaderboard.adapters.LeadersListAdapter
 import dev.ahmdaeyz.gadsleaderboard.util.LeadersResult
 
-
 class LearningLeadersFragment : Fragment() {
 
     private lateinit var viewModel: LearningLeadersViewModel
@@ -25,7 +24,8 @@ class LearningLeadersFragment : Fragment() {
     }
 
     override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
+        inflater: LayoutInflater,
+        container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         val binding = FragmentLearningLeadersBinding.inflate(inflater, container, false)
@@ -49,5 +49,4 @@ class LearningLeadersFragment : Fragment() {
         }
         return binding.root
     }
-
 }

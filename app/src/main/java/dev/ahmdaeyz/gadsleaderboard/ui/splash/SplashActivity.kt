@@ -16,11 +16,11 @@ class SplashActivity : AppCompatActivity() {
         MainScope().launch {
             delay(2000)
             val mainActivityIntent = Intent(
-                this@SplashActivity, MainActivity::class.java
+                this@SplashActivity,
+                MainActivity::class.java
             )
             startActivity(mainActivityIntent)
             this@SplashActivity.finish()
         }
-
     }
 }

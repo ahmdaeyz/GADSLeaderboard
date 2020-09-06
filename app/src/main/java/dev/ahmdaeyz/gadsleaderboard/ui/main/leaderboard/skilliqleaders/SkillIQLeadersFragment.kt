@@ -12,7 +12,6 @@ import dev.ahmdaeyz.gadsleaderboard.databinding.FragmentSkillIQLeadersBinding
 import dev.ahmdaeyz.gadsleaderboard.ui.main.leaderboard.adapters.LeadersListAdapter
 import dev.ahmdaeyz.gadsleaderboard.util.LeadersResult
 
-
 class SkillIQLeadersFragment : Fragment() {
 
     private lateinit var viewModel: SkillIQLeadersViewModel
@@ -23,11 +22,11 @@ class SkillIQLeadersFragment : Fragment() {
         val viewModelFactory = SkillIQLeadersViewModelFactory(networkService)
         viewModel =
             ViewModelProvider(this, viewModelFactory).get(SkillIQLeadersViewModel::class.java)
-
     }
 
     override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
+        inflater: LayoutInflater,
+        container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         val binding = FragmentSkillIQLeadersBinding.inflate(inflater, container, false)
@@ -50,5 +49,4 @@ class SkillIQLeadersFragment : Fragment() {
         }
         return binding.root
     }
-
 }

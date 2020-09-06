@@ -1,6 +1,5 @@
 package dev.ahmdaeyz.gadsleaderboard.data.network.networkresponse
 
-
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 

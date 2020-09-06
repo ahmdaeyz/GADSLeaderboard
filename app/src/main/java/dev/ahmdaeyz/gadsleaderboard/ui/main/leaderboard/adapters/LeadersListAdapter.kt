@@ -22,7 +22,6 @@ class LeadersListAdapter : RecyclerView.Adapter<LeadersListAdapter.ViewHolder>()
         holder.bind(item)
     }
 
-
     class ViewHolder(private val binding: ListItemLayoutBinding) :
         RecyclerView.ViewHolder(binding.root) {
 

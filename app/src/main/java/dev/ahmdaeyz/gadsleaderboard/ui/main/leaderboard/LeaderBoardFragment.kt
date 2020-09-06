@@ -14,7 +14,8 @@ import dev.ahmdaeyz.gadsleaderboard.ui.main.leaderboard.adapters.LeadersFragment
 class LeaderBoardFragment : Fragment() {
     private val sharedViewModel by activityViewModels<MainSharedViewModel>()
     override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
+        inflater: LayoutInflater,
+        container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         val binding = FragmentLeaderBoardBinding.inflate(inflater, container, false)
@@ -31,6 +32,4 @@ class LeaderBoardFragment : Fragment() {
         }
         return binding.root
     }
-
-
 }

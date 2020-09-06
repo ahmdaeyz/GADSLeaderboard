@@ -7,7 +7,6 @@ import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
 
-
 private const val BASE_URL = "https://gadsapi.herokuapp.com/api/"
 
 object GADSAPIBuilder {
