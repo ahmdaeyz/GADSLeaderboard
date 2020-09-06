@@ -7,8 +7,6 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.FragmentManager
 import androidx.lifecycle.lifecycleScope
 import dev.ahmdaeyz.gadsleaderboard.R
-import dev.ahmdaeyz.gadsleaderboard.data.network.service.NetworkServiceImpl
-import dev.ahmdaeyz.gadsleaderboard.data.network.service.interceptors.ConnectivityInterceptor
 import dev.ahmdaeyz.gadsleaderboard.ui.main.leaderboard.LeaderBoardFragment
 import dev.ahmdaeyz.gadsleaderboard.ui.main.projectsubmission.ProjectSubmissionFragment
 import dev.ahmdaeyz.gadsleaderboard.util.extensions.isConnected
