@@ -26,7 +26,7 @@ class NetworkServiceImpl private constructor() :
         fun getInstance(): NetworkServiceImpl {
             synchronized(this) {
                 if (INSTANCE != null) {
-                    throw Exception("You can't initialize the service, Already is.")
+                    return INSTANCE!!
                 } else {
                     INSTANCE = NetworkServiceImpl()
                     return INSTANCE!!
