@@ -4,7 +4,7 @@ import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
 
-private const val BASE_URL = "https://docs.google.com/forms/d/"
+private const val BASE_URL = "https://docs.google.com/forms/d/e/"
 
 object GoogleFormsAPIBuilder {
     operator fun invoke(): GoogleFormsAPI {
