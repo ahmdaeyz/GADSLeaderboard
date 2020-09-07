@@ -145,6 +145,6 @@
         android:id="@+id/form_views"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:constraint_referenced_ids="submit_button, project_submission_text, email_address_text_field, last_name_text_field, first_name_text_field" />
+        app:constraint_referenced_ids="submit_button, github_url_text_field, email_address_text_field, last_name_text_field, first_name_text_field" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
